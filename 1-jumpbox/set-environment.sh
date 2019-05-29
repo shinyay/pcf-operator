@@ -1,0 +1,8 @@
+#!/bin/bash
+
+PCF_PIVNET_UAA_TOKEN=4b78b27136ab487b9653e6f9fdb3c185-r
+PCF_DOMAIN_NAME=syanagihara.cf
+PCF_SUBDOMAIN_NAME=mypcf
+PCF_OPSMAN_ADMIN_PASSWD=admin
+PCF_PROJECT_ID=$(gcloud config get-value core/project)
+PCF_OPSMAN_FQDN=pcf.${PCF_SUBDOMAIN_NAME}.${PCF_DOMAIN_NAME}
