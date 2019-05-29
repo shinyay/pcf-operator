@@ -1,4 +1,4 @@
 #!/usr/bin/env fish
 
 gcloud compute instances stop jumpbox \
-  --zone us-central1-a
+  --zone asia-northeast1-b
