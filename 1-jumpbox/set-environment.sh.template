@@ -1,8 +1,10 @@
 #!/bin/bash
 
+cat << EOS >> ~/.bashrc
 PCF_PIVNET_UAA_TOKEN=
 PCF_DOMAIN_NAME=
 PCF_SUBDOMAIN_NAME=
 PCF_OPSMAN_ADMIN_PASSWD=
 PCF_PROJECT_ID=$(gcloud config get-value core/project)
 PCF_OPSMAN_FQDN=pcf.${PCF_SUBDOMAIN_NAME}.${PCF_DOMAIN_NAME}
+EOS
