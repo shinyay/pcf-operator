@@ -3,3 +3,4 @@
 *.cert
 *.key
 gcp_credentials.json
+terraform.out
