@@ -4,9 +4,9 @@ region              = "asia-northeast1"
 zones               = ["asia-northeast1-b", "asia-northeast1-a", "asia-northeast1-c"]
 dns_suffix          = "PCF_DOMAIN_NAME"
 opsman_image_url    = "https://storage.googleapis.com/ops-manager-us/pcf-gcp-2.5.4-build.189.tar.gz"
-create_gcs_buckets  = "false"
-external_database   = 0
-isolation_segment   = "false"
+create_gcs_buckets  = false
+external_database   = false
+isolation_segment   = false
 ssl_cert = <<SSL_CERT
 -----BEGIN CERTIFICATE-----
 YOUR_SSL_CERT
