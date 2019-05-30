@@ -1,1 +1,4 @@
 1-jumpbox/set-environment.sh
+*.cnf
+*.cert
+*.key
