@@ -2,3 +2,4 @@
 *.cnf
 *.cert
 *.key
+gcp_credentials.json
