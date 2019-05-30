@@ -3,7 +3,8 @@
 sudo apt update
 sudo apt --yes install unzip
 sudo apt --yes install jq
-wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.0/terraform_0.12.0_linux_amd64.zip && \
+#wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.0/terraform_0.12.0_linux_amd64.zip && \
+wget -O terraform.zip https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_linux_amd64.zip && \
   unzip terraform.zip && \
   sudo mv terraform /usr/local/bin
 wget -O om https://github.com/pivotal-cf/om/releases/download/1.1.0/om-linux && \
