@@ -1,6 +1,9 @@
 #!/bin/bash
 
+wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
+echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
 sudo apt update
+sudo apt --yes install cf-cli
 sudo apt --yes install unzip
 sudo apt --yes install jq
 #wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.0/terraform_0.12.0_linux_amd64.zip && \
